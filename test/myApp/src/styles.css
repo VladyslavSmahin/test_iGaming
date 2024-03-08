@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'BasisGrotesquePro-Bold';
+    src: url('../public/BasisGrotesquePro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BasisGrotesquePro-Medium';
+    src: url('../public/BasisGrotesquePro-Medium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.logo {
+    padding-bottom: 80px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.loginBlock {
+    width: 400px;
+}
+
+.loginBlockName {
+    font-family: BasisGrotesquePro-Bold, sans-serif;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.loginBlockForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonGoogle, .buttonGithub {
+    position: relative;
+}
+
+.buttonGoogle::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 185px;
+    left: 0;
+    border-bottom: 1px solid #E3E6E9;
+    margin-top: 139px;
+}
+
+.buttonGithub::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 185px;
+    right: 0;
+    border-bottom: 1px solid #E3E6E9;
+    margin-top: 139px;
+}
+.buttonGithub::before{
+    content: url("../public/github.png");
+    padding-right: 7px;
+    padding-top: 7px;
+}
+.buttonGoogle::before{
+    content: url("../public/google.png");
+    padding-right: 7px;
+    padding-top: 7px;
+}
+.or {
+    font-family: BasisGrotesquePro-Medium, sans-serif;
+    font-size: 16px;
+    color: #BEC5CC;
+    position: relative;
+    top: -40px;
+    left: 188px;
+}
