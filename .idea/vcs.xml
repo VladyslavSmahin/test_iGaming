@@ -6,6 +6,7 @@
     <mapping directory="$PROJECT_DIR$/Pet_project_1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Project_1.1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SushiTyt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dist" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/test_for_saluk" vcs="Git" />
   </component>
 </project>
