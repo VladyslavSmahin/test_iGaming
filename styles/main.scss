@@ -2,6 +2,7 @@ $primary-color: #1f1814;
 $back-color: #dcd5d3;
 $back2-color: #1c1918;
 $font-white-color: #dcd5d3;
+$hover-color: white;
 
 @font-face {
   font-family: 'Montserrat-Regular';
@@ -9,14 +10,15 @@ $font-white-color: #dcd5d3;
   font-weight: bold;
   font-style: normal;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   height: 100%;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat-Regular', sans-serif;
   background-color: $back-color;
-
 
   .wrapper {
     min-height: 100vh;
@@ -154,6 +156,9 @@ ul {
 a {
   text-decoration: none;
   color: $font-white-color;
+  &:hover {
+    color: $hover-color;
+  }
 }
 
 @media (max-width: 768px) {

@@ -5,6 +5,10 @@
   font-weight: bold;
   font-style: normal;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -122,6 +126,9 @@ ul {
 a {
   text-decoration: none;
   color: #dcd5d3;
+}
+a:hover {
+  color: white;
 }
 
 @media (max-width: 768px) {
